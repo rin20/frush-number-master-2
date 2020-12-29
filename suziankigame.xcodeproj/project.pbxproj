@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC44337C24E12ECA003FFBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44337B24E12ECA003FFBA4 /* AppDelegate.swift */; };
+		BC44337E24E12ECA003FFBA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44337D24E12ECA003FFBA4 /* SceneDelegate.swift */; };
+		BC44338524E12ECD003FFBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC44338424E12ECD003FFBA4 /* Assets.xcassets */; };
+		BC44338824E12ECD003FFBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC44338624E12ECD003FFBA4 /* LaunchScreen.storyboard */; };
+		BC44339324E12ECD003FFBA4 /* suziankigameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44339224E12ECD003FFBA4 /* suziankigameTests.swift */; };
+		BC44339E24E12ECD003FFBA4 /* suziankigameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44339D24E12ECD003FFBA4 /* suziankigameUITests.swift */; };
+		BC4433BE24E56C54003FFBA4 /* 緑.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4433BD24E56C53003FFBA4 /* 緑.png */; };
+		BC4433CA24E62FE3003FFBA4 /* a93d51312588f07ba382ca50f1fd27f3-250x446 (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC4433C924E62FE3003FFBA4 /* a93d51312588f07ba382ca50f1fd27f3-250x446 (2).jpeg */; };
+		BC44340A24E788EC003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC44340924E788EC003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446.jpeg */; };
+		BC44340C24E8CED8003FFBA4 /* helpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44340B24E8CED8003FFBA4 /* helpController.swift */; };
+		BC44340E24E8D4E2003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446 (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC44340D24E8D4E2003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446 (1).jpeg */; };
+		BC44341024E8D6A5003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC44340F24E8D6A4003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 2.jpeg */; };
+		BC44341424E8EA4F003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 (3).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BC44341324E8EA4F003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 (3).jpeg */; };
+		BC613996252896FF0041DBD4 /* AnzanFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC613995252896FF0041DBD4 /* AnzanFirstViewController.swift */; };
+		BC61399B2528AC800041DBD4 /* AnzanKaitouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61399A2528AC800041DBD4 /* AnzanKaitouViewController.swift */; };
+		BC6139A325294F690041DBD4 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6139A225294F690041DBD4 /* NextViewController.swift */; };
+		BC6139A825294F9D0041DBD4 /* NextSyokiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6139A725294F9D0041DBD4 /* NextSyokiViewController.swift */; };
+		BC6139AD25294FAC0041DBD4 /* NextKaitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6139AC25294FAC0041DBD4 /* NextKaitoViewController.swift */; };
+		BC6317D92584C309007D1E68 /* KodomoRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC6317D82584C309007D1E68 /* KodomoRounded-Light.otf */; };
+		BC63181D2584D6B4007D1E68 /* timemachine-wa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC63181C2584D6B4007D1E68 /* timemachine-wa.ttf */; };
+		BC6318222584D80B007D1E68 /* rounded-mgenplus-2c-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC6318212584D80B007D1E68 /* rounded-mgenplus-2c-medium.ttf */; };
+		BC6318272584D8EB007D1E68 /* mini-wakuwaku-maru.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC6318262584D8EB007D1E68 /* mini-wakuwaku-maru.otf */; };
+		BC6E5E50255FEBDD0075763B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6E5E4F255FEBDD0075763B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC44338F24E12ECD003FFBA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC44337024E12ECA003FFBA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC44337724E12ECA003FFBA4;
+			remoteInfo = suziankigame;
+		};
+		BC44339A24E12ECD003FFBA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC44337024E12ECA003FFBA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC44337724E12ECA003FFBA4;
+			remoteInfo = suziankigame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC44337824E12ECA003FFBA4 /* suziankigame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suziankigame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC44337B24E12ECA003FFBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC44337D24E12ECA003FFBA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC44338424E12ECD003FFBA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC44338724E12ECD003FFBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC44338924E12ECD003FFBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC44338E24E12ECD003FFBA4 /* suziankigameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suziankigameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC44339224E12ECD003FFBA4 /* suziankigameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suziankigameTests.swift; sourceTree = "<group>"; };
+		BC44339424E12ECD003FFBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC44339924E12ECD003FFBA4 /* suziankigameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suziankigameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC44339D24E12ECD003FFBA4 /* suziankigameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suziankigameUITests.swift; sourceTree = "<group>"; };
+		BC44339F24E12ECD003FFBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4433BD24E56C53003FFBA4 /* 緑.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "緑.png"; sourceTree = "<group>"; };
+		BC4433C924E62FE3003FFBA4 /* a93d51312588f07ba382ca50f1fd27f3-250x446 (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "a93d51312588f07ba382ca50f1fd27f3-250x446 (2).jpeg"; sourceTree = "<group>"; };
+		BC44340924E788EC003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eefed22a47169e166d2dfab51d9908a8-250x446.jpeg"; sourceTree = "<group>"; };
+		BC44340B24E8CED8003FFBA4 /* helpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpController.swift; sourceTree = "<group>"; };
+		BC44340D24E8D4E2003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446 (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eefed22a47169e166d2dfab51d9908a8-250x446 (1).jpeg"; sourceTree = "<group>"; };
+		BC44340F24E8D6A4003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6c3d22ba1c58f6f3458e16b667ae6250 2.jpeg"; sourceTree = "<group>"; };
+		BC44341324E8EA4F003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 (3).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6c3d22ba1c58f6f3458e16b667ae6250 (3).jpeg"; sourceTree = "<group>"; };
+		BC613995252896FF0041DBD4 /* AnzanFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnzanFirstViewController.swift; sourceTree = "<group>"; };
+		BC61399A2528AC800041DBD4 /* AnzanKaitouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnzanKaitouViewController.swift; sourceTree = "<group>"; };
+		BC6139A225294F690041DBD4 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		BC6139A725294F9D0041DBD4 /* NextSyokiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSyokiViewController.swift; sourceTree = "<group>"; };
+		BC6139AC25294FAC0041DBD4 /* NextKaitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextKaitoViewController.swift; sourceTree = "<group>"; };
+		BC6317D82584C309007D1E68 /* KodomoRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KodomoRounded-Light.otf"; sourceTree = "<group>"; };
+		BC63181C2584D6B4007D1E68 /* timemachine-wa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "timemachine-wa.ttf"; sourceTree = "<group>"; };
+		BC6318212584D80B007D1E68 /* rounded-mgenplus-2c-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rounded-mgenplus-2c-medium.ttf"; sourceTree = "<group>"; };
+		BC6318262584D8EB007D1E68 /* mini-wakuwaku-maru.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mini-wakuwaku-maru.otf"; sourceTree = "<group>"; };
+		BC6E5E4F255FEBDD0075763B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC44337524E12ECA003FFBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC44338B24E12ECD003FFBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC44339624E12ECD003FFBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC44336F24E12ECA003FFBA4 = {
+			isa = PBXGroup;
+			children = (
+				BC44337A24E12ECA003FFBA4 /* suziankigame */,
+				BC44339124E12ECD003FFBA4 /* suziankigameTests */,
+				BC44339C24E12ECD003FFBA4 /* suziankigameUITests */,
+				BC44337924E12ECA003FFBA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC44337924E12ECA003FFBA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC44337824E12ECA003FFBA4 /* suziankigame.app */,
+				BC44338E24E12ECD003FFBA4 /* suziankigameTests.xctest */,
+				BC44339924E12ECD003FFBA4 /* suziankigameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC44337A24E12ECA003FFBA4 /* suziankigame */ = {
+			isa = PBXGroup;
+			children = (
+				BC44337B24E12ECA003FFBA4 /* AppDelegate.swift */,
+				BC44337D24E12ECA003FFBA4 /* SceneDelegate.swift */,
+				BC44338424E12ECD003FFBA4 /* Assets.xcassets */,
+				BC4433C924E62FE3003FFBA4 /* a93d51312588f07ba382ca50f1fd27f3-250x446 (2).jpeg */,
+				BC44341324E8EA4F003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 (3).jpeg */,
+				BC44340D24E8D4E2003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446 (1).jpeg */,
+				BC4433BD24E56C53003FFBA4 /* 緑.png */,
+				BC44340924E788EC003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446.jpeg */,
+				BC44340F24E8D6A4003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 2.jpeg */,
+				BC44338624E12ECD003FFBA4 /* LaunchScreen.storyboard */,
+				BC44338924E12ECD003FFBA4 /* Info.plist */,
+				BC6E5E4F255FEBDD0075763B /* Main.storyboard */,
+				BC6318262584D8EB007D1E68 /* mini-wakuwaku-maru.otf */,
+				BC63181C2584D6B4007D1E68 /* timemachine-wa.ttf */,
+				BC6318212584D80B007D1E68 /* rounded-mgenplus-2c-medium.ttf */,
+				BC6317D82584C309007D1E68 /* KodomoRounded-Light.otf */,
+				BC44340B24E8CED8003FFBA4 /* helpController.swift */,
+				BC613995252896FF0041DBD4 /* AnzanFirstViewController.swift */,
+				BC61399A2528AC800041DBD4 /* AnzanKaitouViewController.swift */,
+				BC6139A725294F9D0041DBD4 /* NextSyokiViewController.swift */,
+				BC6139A225294F690041DBD4 /* NextViewController.swift */,
+				BC6139AC25294FAC0041DBD4 /* NextKaitoViewController.swift */,
+			);
+			path = suziankigame;
+			sourceTree = "<group>";
+		};
+		BC44339124E12ECD003FFBA4 /* suziankigameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC44339224E12ECD003FFBA4 /* suziankigameTests.swift */,
+				BC44339424E12ECD003FFBA4 /* Info.plist */,
+			);
+			path = suziankigameTests;
+			sourceTree = "<group>";
+		};
+		BC44339C24E12ECD003FFBA4 /* suziankigameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC44339D24E12ECD003FFBA4 /* suziankigameUITests.swift */,
+				BC44339F24E12ECD003FFBA4 /* Info.plist */,
+			);
+			path = suziankigameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC44337724E12ECA003FFBA4 /* suziankigame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4433A224E12ECD003FFBA4 /* Build configuration list for PBXNativeTarget "suziankigame" */;
+			buildPhases = (
+				BC44337424E12ECA003FFBA4 /* Sources */,
+				BC44337524E12ECA003FFBA4 /* Frameworks */,
+				BC44337624E12ECA003FFBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suziankigame;
+			productName = suziankigame;
+			productReference = BC44337824E12ECA003FFBA4 /* suziankigame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC44338D24E12ECD003FFBA4 /* suziankigameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4433A524E12ECD003FFBA4 /* Build configuration list for PBXNativeTarget "suziankigameTests" */;
+			buildPhases = (
+				BC44338A24E12ECD003FFBA4 /* Sources */,
+				BC44338B24E12ECD003FFBA4 /* Frameworks */,
+				BC44338C24E12ECD003FFBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC44339024E12ECD003FFBA4 /* PBXTargetDependency */,
+			);
+			name = suziankigameTests;
+			productName = suziankigameTests;
+			productReference = BC44338E24E12ECD003FFBA4 /* suziankigameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC44339824E12ECD003FFBA4 /* suziankigameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4433A824E12ECD003FFBA4 /* Build configuration list for PBXNativeTarget "suziankigameUITests" */;
+			buildPhases = (
+				BC44339524E12ECD003FFBA4 /* Sources */,
+				BC44339624E12ECD003FFBA4 /* Frameworks */,
+				BC44339724E12ECD003FFBA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC44339B24E12ECD003FFBA4 /* PBXTargetDependency */,
+			);
+			name = suziankigameUITests;
+			productName = suziankigameUITests;
+			productReference = BC44339924E12ECD003FFBA4 /* suziankigameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC44337024E12ECA003FFBA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "kumagai rin";
+				TargetAttributes = {
+					BC44337724E12ECA003FFBA4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					BC44338D24E12ECD003FFBA4 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = BC44337724E12ECA003FFBA4;
+					};
+					BC44339824E12ECD003FFBA4 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = BC44337724E12ECA003FFBA4;
+					};
+				};
+			};
+			buildConfigurationList = BC44337324E12ECA003FFBA4 /* Build configuration list for PBXProject "suziankigame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC44336F24E12ECA003FFBA4;
+			productRefGroup = BC44337924E12ECA003FFBA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC44337724E12ECA003FFBA4 /* suziankigame */,
+				BC44338D24E12ECD003FFBA4 /* suziankigameTests */,
+				BC44339824E12ECD003FFBA4 /* suziankigameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC44337624E12ECA003FFBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6E5E50255FEBDD0075763B /* Main.storyboard in Resources */,
+				BC6317D92584C309007D1E68 /* KodomoRounded-Light.otf in Resources */,
+				BC44338824E12ECD003FFBA4 /* LaunchScreen.storyboard in Resources */,
+				BC4433BE24E56C54003FFBA4 /* 緑.png in Resources */,
+				BC6318272584D8EB007D1E68 /* mini-wakuwaku-maru.otf in Resources */,
+				BC44338524E12ECD003FFBA4 /* Assets.xcassets in Resources */,
+				BC44340E24E8D4E2003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446 (1).jpeg in Resources */,
+				BC44341424E8EA4F003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 (3).jpeg in Resources */,
+				BC4433CA24E62FE3003FFBA4 /* a93d51312588f07ba382ca50f1fd27f3-250x446 (2).jpeg in Resources */,
+				BC6318222584D80B007D1E68 /* rounded-mgenplus-2c-medium.ttf in Resources */,
+				BC44341024E8D6A5003FFBA4 /* 6c3d22ba1c58f6f3458e16b667ae6250 2.jpeg in Resources */,
+				BC44340A24E788EC003FFBA4 /* eefed22a47169e166d2dfab51d9908a8-250x446.jpeg in Resources */,
+				BC63181D2584D6B4007D1E68 /* timemachine-wa.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC44338C24E12ECD003FFBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC44339724E12ECD003FFBA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC44337424E12ECA003FFBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC44337C24E12ECA003FFBA4 /* AppDelegate.swift in Sources */,
+				BC61399B2528AC800041DBD4 /* AnzanKaitouViewController.swift in Sources */,
+				BC613996252896FF0041DBD4 /* AnzanFirstViewController.swift in Sources */,
+				BC6139A325294F690041DBD4 /* NextViewController.swift in Sources */,
+				BC44337E24E12ECA003FFBA4 /* SceneDelegate.swift in Sources */,
+				BC44340C24E8CED8003FFBA4 /* helpController.swift in Sources */,
+				BC6139AD25294FAC0041DBD4 /* NextKaitoViewController.swift in Sources */,
+				BC6139A825294F9D0041DBD4 /* NextSyokiViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC44338A24E12ECD003FFBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC44339324E12ECD003FFBA4 /* suziankigameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC44339524E12ECD003FFBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC44339E24E12ECD003FFBA4 /* suziankigameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC44339024E12ECD003FFBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC44337724E12ECA003FFBA4 /* suziankigame */;
+			targetProxy = BC44338F24E12ECD003FFBA4 /* PBXContainerItemProxy */;
+		};
+		BC44339B24E12ECD003FFBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC44337724E12ECA003FFBA4 /* suziankigame */;
+			targetProxy = BC44339A24E12ECD003FFBA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC44338624E12ECD003FFBA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC44338724E12ECD003FFBA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC4433A024E12ECD003FFBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC4433A124E12ECD003FFBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4433A324E12ECD003FFBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suziankigame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.kumagai-rin.suziankigame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC4433A424E12ECD003FFBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suziankigame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.kumagai-rin.suziankigame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC4433A624E12ECD003FFBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suziankigameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.kumagai-rin.suziankigameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suziankigame.app/suziankigame";
+			};
+			name = Debug;
+		};
+		BC4433A724E12ECD003FFBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suziankigameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.kumagai-rin.suziankigameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suziankigame.app/suziankigame";
+			};
+			name = Release;
+		};
+		BC4433A924E12ECD003FFBA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suziankigameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.kumagai-rin.suziankigameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = suziankigame;
+			};
+			name = Debug;
+		};
+		BC4433AA24E12ECD003FFBA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = suziankigameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.kumagai-rin.suziankigameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = suziankigame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC44337324E12ECA003FFBA4 /* Build configuration list for PBXProject "suziankigame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4433A024E12ECD003FFBA4 /* Debug */,
+				BC4433A124E12ECD003FFBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4433A224E12ECD003FFBA4 /* Build configuration list for PBXNativeTarget "suziankigame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4433A324E12ECD003FFBA4 /* Debug */,
+				BC4433A424E12ECD003FFBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4433A524E12ECD003FFBA4 /* Build configuration list for PBXNativeTarget "suziankigameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4433A624E12ECD003FFBA4 /* Debug */,
+				BC4433A724E12ECD003FFBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4433A824E12ECD003FFBA4 /* Build configuration list for PBXNativeTarget "suziankigameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4433A924E12ECD003FFBA4 /* Debug */,
+				BC4433AA24E12ECD003FFBA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC44337024E12ECA003FFBA4 /* Project object */;
+}
