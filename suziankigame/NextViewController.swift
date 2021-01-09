@@ -23,9 +23,9 @@ class NextViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        gameStart.layer.cornerRadius = 20.0
-        ok.layer.cornerRadius = 20.0
-        Nanido.layer.cornerRadius = 20.0
+        gameStart.layer.cornerRadius = gameStart.frame.size.width * 0.07
+        ok.layer.cornerRadius = ok.frame.size.width * 0.22
+        Nanido.layer.cornerRadius = Nanido.frame.size.width * 0.07
         
         let rgba = UIColor(red: 0.14, green: 0.47, blue: 1.0, alpha: 1.0)
         kakikomi.textColor = rgba
